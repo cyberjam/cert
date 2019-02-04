@@ -83,4 +83,4 @@ Given the following queue -- 95, 180, 34, 119, 11, 123, 62, 64 with the Read-wri
 >* LOOK : 간혹 나오니 알아두기! 스캔과 다르게 처음 트랙, 0을 굳이 순회하지 않음. \
 > 이미지는 C-LOOK.\
 >![Alt text](http://www.cs.iit.edu/~cs561/cs450/disksched/c-look.bmp)\
-> 자료 및 이미지 출처 : http://www.cs.iit.edu/~cs561/cs450/disksched/disksched.html
+> 자료 및 이미지 출처 :[Illinois Institute of Technology] (http://www.cs.iit.edu/~cs561/cs450/disksched/disksched.html)
