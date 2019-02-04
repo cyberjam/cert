@@ -31,4 +31,6 @@ cbt 전자문제집 https://www.comcbt.com/cbt/index2.php?hack_number=29
 >- 튜플 관계 해석, 도메인 관계해석 (or, and ..)
 
 
-*db 처리기능, 능력 모두 동일*
+>''' 
+>*db 처리기능, 능력 모두 동일*
+>'''
