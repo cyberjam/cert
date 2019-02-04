@@ -4,12 +4,12 @@
 
 
 
-[pdf 다운] https://sinagong.gilbut.co.kr/download?type=PD_FILE&idx=147487
+syntax: [pdf 다운] https://sinagong.gilbut.co.kr/download?type=PD_FILE&idx=147487
 
-출처 [시나공IT 정보처리기사 기출문제집 핵심 요약] (https://sinagong.gilbut.co.kr/it/pds#pd03)
+syntax: 출처 [시나공IT 정보처리기사 기출문제집 핵심 요약] (https://sinagong.gilbut.co.kr/it/pds#pd03)
 
 
-[cbt 전자문제집]
+syntax: [cbt 전자문제집]
 (https://www.comcbt.com/cbt/index2.php?hack_number=29)
 
 
