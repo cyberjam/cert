@@ -18,6 +18,7 @@ cbt 전자문제집 https://www.comcbt.com/cbt/index2.php?hack_number=29
 오답 정리 
 ------------
 
+
 # 데이터 베이스
 ## 관계대수와 관계해석
 * 관계대수 
@@ -41,27 +42,31 @@ cbt 전자문제집 https://www.comcbt.com/cbt/index2.php?hack_number=29
 어떻게 생겨 먹었을까 : http://dblab.kangwon.ac.kr/wp-content/uploads/kboard_attached/3/201403/201403310758151089652.pdf
 
 
-#운영체제
+# 운영체제
 ## 디스크 스케줄링
-'''
+```
 Given the following queue -- 95, 180, 34, 119, 11, 123, 62, 64 with the Read-write head initially at the track 50 and the tail track being at 199
-'''
-'''
-~ 95, 180, 34, 119, 11, 123, 62, 64 순으로 큐에 대기열이 있을때, 50부터 시작하고 끝은 199이다 * SCAN경우 방향은 보통 0쪽으로~
-'''
+```
+
+```
+~ 95, 180, 34, 119, 11, 123, 62, 64 순으로 큐에 대기열이 있을때, 50부터 시작하고 끝은 199이다 //SCAN경우 방향은 보통 0쪽으로~
+```
+
 >* FCFS : 순서대로
 >![Alt text](http://www.cs.iit.edu/~cs561/cs450/disksched/fcfs.bmp)
 >* SSTF : 가까운 것부터
 >![Alt text](http://www.cs.iit.edu/~cs561/cs450/disksched/sstf.bmp)
 >* SCAN : 엘리베이터처럼 방향대로 처음부분 0  찍고 **반대 끝쪽으로 가면서** 순회 
 >![Alt text](http://www.cs.iit.edu/~cs561/cs450/disksched/scan.bmp)
->* C-SCAN : Circular 순환. SCAN 처럼 방향대로 처음부분 0 찍고 **반대 끝쪽에서부터 돌아오며** 순회, 앞뒤가 연결되어 순환한다고 생각
+>* C-SCAN : Circular 순환. SCAN 처럼 방향대로 처음부분 0 찍고 **반대 끝쪽에서부터 돌아오며** 순회, 
+>앞뒤가 연결되어 순환한다고 생각
 >![Alt text](http://www.cs.iit.edu/~cs561/cs450/disksched/c-scan.bmp)
 
 
 >* N-Step
 >* 에션바흐(Eschenbach)
 >* SLTF
->* LOOK : 간혹 나오니 알아두기! 스캔과 다르게 0을 반드시 순회하지 않음. 가장자리 대기큐만 순회하고 방향 돌림. 이미지는 C-LOOK.
+>* LOOK : 간혹 나오니 알아두기! 스캔과 다르게 0을 반드시 순회하지 않음. 
+> 가장자리 대기큐만 순회하고 방향 돌림. 이미지는 C-LOOK.
 >![Alt text](http://www.cs.iit.edu/~cs561/cs450/disksched/c-look.bmp)
 > 이미지 : http://www.cs.iit.edu/~cs561/cs450/disksched/disksched.html
