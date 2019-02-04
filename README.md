@@ -2,7 +2,7 @@
 
 
 ## 준비 
- --------
+ 
 
 
 
@@ -58,20 +58,20 @@ Given the following queue -- 95, 180, 34, 119, 11, 123, 62, 64 with the Read-wri
  95, 180, 34, 119, 11, 123, 62, 64 순으로 큐에 대기열이 있을때, 50부터 시작하고 끝은 199이다 //SCAN경우 방향은 보통 0쪽으로.
  이동거리를 구하시오! 라는 문제로 출제
 ```
-----------------------------------
+
 >* FCFS : 순서대로\
 >![Alt text](http://www.cs.iit.edu/~cs561/cs450/disksched/fcfs.bmp)
-----------------------------------
+
 >* SSTF : 가까운 것부터\
 >![Alt text](http://www.cs.iit.edu/~cs561/cs450/disksched/sstf.bmp)
-----------------------------------
+
 >* SCAN : 엘리베이터처럼 방향대로 처음부분 0  찍고 **반대 끝쪽으로 가면서** 순회 \
 >![Alt text](http://www.cs.iit.edu/~cs561/cs450/disksched/scan.bmp)
-----------------------------------
+
 >* C-SCAN : Circular 순환. SCAN 처럼 방향대로 처음부분 0 찍고 **반대 끝쪽에서부터 돌아오며** 순회, \
 >앞뒤가 연결되어 순환한다고 생각\
 >![Alt text](http://www.cs.iit.edu/~cs561/cs450/disksched/c-scan.bmp)
-----------------------------------
+
 
 
 >* N-Step
