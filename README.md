@@ -1,26 +1,24 @@
- 정보처리기사
- ============
+# 정보처리기사
 
- 준비 
+
+## 준비 
  --------
 
 
 
-pdf 다운 https://sinagong.gilbut.co.kr/download?type=PD_FILE&idx=147487
-
-시나공IT 정보처리기사 기출문제집 핵심 요약 https://sinagong.gilbut.co.kr/it/pds#pd03
+>1. [시나공 정보처리기사](https://sinagong.gilbut.co.kr/it/pds#pd03)
 
 
-cbt 전자문제집 https://www.comcbt.com/cbt/index2.php?hack_number=29
+>2. [cbt 전자문제집](https://www.comcbt.com/cbt/index2.php?hack_number=29)
 
 
 
-오답 정리 
-------------
+## 오답 정리 
 
 
-# 데이터 베이스
-## DB 설계 단계
+
+### 데이터 베이스
+#### DB 설계 단계
 >- 요구분석 
 >- 개념설계 : 트랜젝션 모델링, E-R 모델 
 >- 논리설계 : 트랜젝션 인터페이스, 스키마 설계 
@@ -29,7 +27,7 @@ cbt 전자문제집 https://www.comcbt.com/cbt/index2.php?hack_number=29
 ```
 개념설계와 논리설계 개념 구분!
 ```
-## 관계대수와 관계해석
+#### 관계대수와 관계해석
 * 관계대수 
 >- 관계형 데이터베이스에서 원하는 정보와 그 정보를 어떻게 유도하는가를 기술하는 절차적 언어
 >- 릴레이션을 처리하기 위해 연산자와 연산규칙을 제공하는 언어, 피연산자(relation) 연산자 -> 결과 relatioin
@@ -47,12 +45,11 @@ cbt 전자문제집 https://www.comcbt.com/cbt/index2.php?hack_number=29
 *db 처리기능, 능력 모두 동일*
 ```
 
-- 기본 개념 : https://bjh0925.tistory.com/entry/10-%EA%B4%80%EA%B3%84-%EB%8C%80%EC%88%98%EC%99%80-%EA%B4%80%EA%B3%84-%ED%95%B4%EC%84%9D52
-- 어떻게 생겨 먹었을까 : http://dblab.kangwon.ac.kr/wp-content/uploads/kboard_attached/3/201403/201403310758151089652.pdf
+- 기본 개념 : [은둔형공학자 블로그](https://bjh0925.tistory.com/entry/10-%EA%B4%80%EA%B3%84-%EB%8C%80%EC%88%98%EC%99%80-%EA%B4%80%EA%B3%84-%ED%95%B4%EC%84%9D52)
+- 어떻게 생겨 먹었을까 : [강원대 DBlab](http://dblab.kangwon.ac.kr/wp-content/uploads/kboard_attached/3/201403/201403310758151089652.pdf)
 
-
-# 운영체제
-## 디스크 스케줄링
+### 운영체제
+#### 디스크 스케줄링
 ```
 Given the following queue -- 95, 180, 34, 119, 11, 123, 62, 64 with the Read-write head initially at the track 50 and the tail track being at 199
 ```
@@ -83,4 +80,4 @@ Given the following queue -- 95, 180, 34, 119, 11, 123, 62, 64 with the Read-wri
 >* LOOK : 간혹 나오니 알아두기! 스캔과 다르게 처음 트랙, 0을 굳이 순회하지 않음. \
 > 이미지는 C-LOOK.\
 >![Alt text](http://www.cs.iit.edu/~cs561/cs450/disksched/c-look.bmp)\
-> 자료 및 이미지 출처 :[Illinois Institute of Technology] (http://www.cs.iit.edu/~cs561/cs450/disksched/disksched.html)
+> 자료 및 이미지 출처 :[Illinois Institute of Technology](http://www.cs.iit.edu/~cs561/cs450/disksched/disksched.html)
