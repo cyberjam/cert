@@ -1,22 +1,23 @@
 # cert
 
 
-# 정보처리기사
+## 정보처리기사
 
-요약본 
+### 요약본 
 
-시나공IT 정보처리기사 기출문제집 핵심 요약
+*시나공IT 정보처리기사 기출문제집 핵심 요약
 https://sinagong.gilbut.co.kr/it/pds#pd03
 
-pdf
+*pdf
 https://sinagong.gilbut.co.kr/download?type=PD_FILE&idx=147487
 
 
-cbt 전자문제집
+*cbt 전자문제집
 https://www.comcbt.com/cbt/index2.php?hack_number=29
 
 
 
+### 정리 
 
 *관계대수 
 - 관계형 데이터 베이스에서 원하는 정보와 그정보를 어떻게 유도하는 가를 기술하는 절차적 언어
