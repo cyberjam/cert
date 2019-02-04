@@ -56,5 +56,5 @@ cbt 전자문제집 https://www.comcbt.com/cbt/index2.php?hack_number=29
 >* N-Step
 >* 에션바흐(Eschenbach)
 >* SLTF
->* LOOK : 간혹 나오니 TODO
->이미지 : http://www.cs.iit.edu/~cs561/cs450/disksched/disksched.html
+>* LOOK : 간혹 나오니 알아두기!
+> 이미지 : http://www.cs.iit.edu/~cs561/cs450/disksched/disksched.html
