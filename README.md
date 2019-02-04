@@ -80,7 +80,7 @@ Given the following queue -- 95, 180, 34, 119, 11, 123, 62, 64 with the Read-wri
 >* N-Step
 >* 에션바흐(Eschenbach)
 >* SLTF
->* LOOK : 간혹 나오니 알아두기! 스캔과 다르게 0을 반드시 순회하지 않음. \
-> 가장자리 대기큐만 순회하고 방향 돌림. 이미지는 C-LOOK.\
+>* LOOK : 간혹 나오니 알아두기! 스캔과 다르게 처음 트랙, 0을 굳이 순회하지 않음. \
+> 이미지는 C-LOOK.\
 >![Alt text](http://www.cs.iit.edu/~cs561/cs450/disksched/c-look.bmp)\
 > 자료 및 이미지 출처 : http://www.cs.iit.edu/~cs561/cs450/disksched/disksched.html
