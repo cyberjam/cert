@@ -47,8 +47,8 @@ cbt 전자문제집 https://www.comcbt.com/cbt/index2.php?hack_number=29
 *db 처리기능, 능력 모두 동일*
 ```
 
-기본 개념 : https://bjh0925.tistory.com/entry/10-%EA%B4%80%EA%B3%84-%EB%8C%80%EC%88%98%EC%99%80-%EA%B4%80%EA%B3%84-%ED%95%B4%EC%84%9D52
-어떻게 생겨 먹었을까 : http://dblab.kangwon.ac.kr/wp-content/uploads/kboard_attached/3/201403/201403310758151089652.pdf
+- 기본 개념 : https://bjh0925.tistory.com/entry/10-%EA%B4%80%EA%B3%84-%EB%8C%80%EC%88%98%EC%99%80-%EA%B4%80%EA%B3%84-%ED%95%B4%EC%84%9D52
+- 어떻게 생겨 먹었을까 : http://dblab.kangwon.ac.kr/wp-content/uploads/kboard_attached/3/201403/201403310758151089652.pdf
 
 
 # 운영체제
@@ -58,18 +58,23 @@ Given the following queue -- 95, 180, 34, 119, 11, 123, 62, 64 with the Read-wri
 ```
 
 ```
-~ 95, 180, 34, 119, 11, 123, 62, 64 순으로 큐에 대기열이 있을때, 50부터 시작하고 끝은 199이다 //SCAN경우 방향은 보통 0쪽으로~
+ 95, 180, 34, 119, 11, 123, 62, 64 순으로 큐에 대기열이 있을때, 50부터 시작하고 끝은 199이다 //SCAN경우 방향은 보통 0쪽으로.
+ 이동거리를 구하시오! 라는 문제로 출제
 ```
-
+----------------------------------
 >* FCFS : 순서대로\
 >![Alt text](http://www.cs.iit.edu/~cs561/cs450/disksched/fcfs.bmp)
+----------------------------------
 >* SSTF : 가까운 것부터\
 >![Alt text](http://www.cs.iit.edu/~cs561/cs450/disksched/sstf.bmp)
+----------------------------------
 >* SCAN : 엘리베이터처럼 방향대로 처음부분 0  찍고 **반대 끝쪽으로 가면서** 순회 \
 >![Alt text](http://www.cs.iit.edu/~cs561/cs450/disksched/scan.bmp)
+----------------------------------
 >* C-SCAN : Circular 순환. SCAN 처럼 방향대로 처음부분 0 찍고 **반대 끝쪽에서부터 돌아오며** 순회, \
 >앞뒤가 연결되어 순환한다고 생각\
 >![Alt text](http://www.cs.iit.edu/~cs561/cs450/disksched/c-scan.bmp)
+----------------------------------
 
 
 >* N-Step
@@ -78,4 +83,4 @@ Given the following queue -- 95, 180, 34, 119, 11, 123, 62, 64 with the Read-wri
 >* LOOK : 간혹 나오니 알아두기! 스캔과 다르게 0을 반드시 순회하지 않음. \
 > 가장자리 대기큐만 순회하고 방향 돌림. 이미지는 C-LOOK.\
 >![Alt text](http://www.cs.iit.edu/~cs561/cs450/disksched/c-look.bmp)\
-> 이미지 : http://www.cs.iit.edu/~cs561/cs450/disksched/disksched.html
+> 자료 및 이미지 출처 : http://www.cs.iit.edu/~cs561/cs450/disksched/disksched.html
